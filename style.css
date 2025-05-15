@@ -32,8 +32,25 @@ nav a {
   font-weight: bold;
 }
 
-section {
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
   padding: 2rem;
+}
+
+.left-content {
+  flex: 1;
+  min-width: 300px;
+  max-width: 700px;
+  padding-right: 2rem;
+}
+
+.right-content {
+  flex: 0 0 400px;
+}
+
+section {
+  padding-bottom: 2rem;
   border-bottom: 1px solid #ddd;
 }
 
