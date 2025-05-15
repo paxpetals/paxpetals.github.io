@@ -1,16 +1,29 @@
-# Pax Petals Flower Farm 🌸
+# 🌸 Pax Petals Flower Farm 🌸
 
-Welcome to the official website for **Pax Petals Flower Farm**, a small-scale flower farm based in **Somers, Connecticut**, specializing in dahlias, zinnias, and cosmos.
+Welcome to the **Pax Petals Flower Farm** website — a charming, small-scale flower farm in Somers, Connecticut, lovingly growing dahlias, zinnias, and cosmos. Our mission is to share seasonal beauty with our local community through our roadside stand, bouquet subscriptions, and custom floral arrangements for special events.
 
-This site is built using React and features:
-- A vintage-style floral design
+Navigate our website to find:
 - Information about our roadside stand
 - Subscription and event inquiry pages
-- A welcoming "About Us" section
+- More about our family-run flower farm in Somers, CT
+  
+---
 
-## 📁 Pages
-- `/` – Home
-- `/about` – About Pax Petals
-- `/stand` – Roadside Stand Details
-- `/subscription` – Flower Subscription Sign-up
-- `/events` – Event Inquiry Form
+## 🌿 Site Pages
+
+| Page              | Description                                      | Link |
+|-------------------|--------------------------------------------------|------|
+| 🏠 **Home**         | Welcome and overview of our flower farm         | [Home](https://paxpetals.github.io/pax-petals-flower-farm) |
+| 🌻 **About Us**     | Learn more about our philosophy and practices   | [About](https://paxpetals.github.io/pax-petals-flower-farm/about) |
+| 🛻 **Roadside Stand** | Details about visiting our honor-system stand   | [Roadside Stand](https://paxpetals.github.io/pax-petals-flower-farm/stand) |
+| 📦 **Subscriptions** | Sign up for weekly or biweekly flower bundles   | [Subscriptions](https://paxpetals.github.io/pax-petals-flower-farm/subscription) |
+| 💐 **Event Inquiries** | Inquire about florals for weddings and parties | [Event Inquiries](https://paxpetals.github.io/pax-petals-flower-farm/events) |
+
+---
+
+## 🛠️ Local Development & Deployment
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/paxpetals/pax-petals-flower-farm.git
+cd pax-petals-flower-farm
