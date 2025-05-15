@@ -22,6 +22,7 @@ nav ul {
   padding: 0;
   margin: 1rem 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 1.5rem;
 }
@@ -41,12 +42,14 @@ nav a {
 .left-content {
   flex: 1;
   min-width: 300px;
-  max-width: 700px;
+  max-width: 100%;
   padding-right: 2rem;
 }
 
 .right-content {
-  flex: 0 0 400px;
+  flex: 1;
+  max-width: 100%;
+  margin-top: 2rem;
 }
 
 section {
@@ -68,4 +71,22 @@ footer {
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .left-content, .right-content {
+    padding: 0;
+    margin: 0;
+  }
+
+  iframe {
+    width: 100% !important;
+    height: auto;
+  }
 }
