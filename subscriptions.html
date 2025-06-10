@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flower Subscriptions</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Load Square embed script early -->
+  <script type="text/javascript" src="https://square.site/embedded.js"></script>
 </head>
 <body>
   <header>
@@ -20,8 +22,6 @@
   <main>
     <h1>Bouquet Subscriptions</h1>        
     <p>Interested in receiving fresh-cut flower bouquets regularly? Join our flower subscription program! Perfect for brightening your home or gifting to a loved one. We offer weekly, bi-weekly, and monthly subscriptions through the summer and fall!</p>
-
-    <img src="bouquet on window2.jpg" alt="bouquet on window2" style="width:100%;max-width:600px;"><img src="seedlings in rows.jpg" alt="Rows of seedlings" style="width:100%;max-width:600px;">
 
     <!-- Subscription Buy Buttons Section -->
     <section style="margin-top: 3rem; padding: 2rem 1rem; background-color: #fdfaf6;">
@@ -55,25 +55,25 @@
         </div>
 
       </div>
-
-      <!-- Square Buy Button Scripts -->
-      <script type="text/javascript" src="https://square.site/embedded.js"></script>
-      <script type="text/javascript">
-        Square.registerBuyButton({
-          elementId: 'sq-button-monthly',
-          url: 'https://square.link/u/tvQQl4CA'
-        });
-        Square.registerBuyButton({
-          elementId: 'sq-button-biweekly',
-          url: 'https://square.link/u/DVDL0ENj'
-        });
-        Square.registerBuyButton({
-          elementId: 'sq-button-weekly',
-          url: 'https://square.link/u/LRbf7GVi'
-        });
-      </script>
     </section>
+
+    <!-- Square Buy Button Scripts -->
+    <script type="text/javascript">
+      Square.registerBuyButton({
+        elementId: 'sq-button-monthly',
+        url: 'https://square.link/u/tvQQl4CA'
+      });
+      Square.registerBuyButton({
+        elementId: 'sq-button-biweekly',
+        url: 'https://square.link/u/DVDL0ENj'
+      });
+      Square.registerBuyButton({
+        elementId: 'sq-button-weekly',
+        url: 'https://square.link/u/LRbf7GVi'
+      });
+    </script>
   </main>
+  <img src="bouquet on window2.jpg" alt="bouquet on window2" style="width:100%;max-width:600px;"><img src="seedlings in rows.jpg" alt="Rows of seedlings" style="width:100%;max-width:600px;">
   <footer>
     <p>&copy; 2025 Pax Petals Flower Farm</p>
   </footer>
